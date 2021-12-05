@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+  }
+
+  .backButton{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightblue;
+    border: solid black 1px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkgreen;
+  }
+
+  .backButton:hover{
+    color: chocolate;
+  }
+  .button{
+    display: flex;
+    flex-direction: column;
+  }
