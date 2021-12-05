@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/nav-style.css">
+    <link rel="stylesheet" href="src/css/home-style.css">
+    <link rel="stylesheet" href="src/css/aboutMe-style.css">
+    <link rel="stylesheet" href="src/css/github-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,800;0,900;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Mohamad Ojail - portfolio</title>
+</head>
+
+<body>
+    <header>
+        <img src="src/images/logo.png" alt="logo image" style="width: 3em; margin: 1em;">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#github">Latest on Github</a></li>
+                <li><a href="src/pages/contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+
+    <section id="home">
+        <div>
+           <h1>Mohamad Ojail</h1>
+        <h2>Student Developer</h2>
+        <p style="font-size: .75em;">links to pages on:</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/ojail/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="link-img" fill="white" width="50" height="50" viewBox="0 0 24 24"><path d="M0 0v24h24v-24h-24zm8 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.397-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://github.com/MohamadOjail" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="link-img" fill="white" width="50" height="50" viewBox="0 0 24 24"><path d="M0 0v24h24v-24h-24zm14.534 19.59c-.406.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.311-1.588-.824-2.147.083-.202.357-1.016-.079-2.117 0 0-.671-.215-2.198.82-.639-.18-1.323-.267-2.003-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
+            </a>
+            
+        </div> 
+        </div>
+        <img src="src/images/logo.png" alt="logo in the center">
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-cards">
+            <div class="about-card" id="card1">
+                <img src="src/images/me.jpg" alt="Picture of Mohamad">
+                <h3>In words:</h3>
+                <p>Problem-solver, passionate about computers, love coding</p>
+            </div>
+            <div class="about-card" id="card2">
+                <h3>Currently</h3>
+                <p>My undergoing study with Yrkesakademin: </p>
+                <a id="course-link" href="https://ya.se/yrkeshogskola/systemutvecklare-java/" target="_blank">Systemutvecklare-Java </a>
+                <p>I am studying on my own with a higher pace focusing on JavaFx, CSS, HTML and will start soon with JavaScript.</p>
+            </div>
+            <div class="about-card" id="card3">
+                <h3>During itroduction Course</h3>
+                <p>In a short time, I found myself learning the following techs to a decent level:</p>
+                <ul class="learned-list">
+                    <li>JavaFx (solved several challenges learning about FXML).</li>
+                    <li>HTML (as I needed to present myself through a portfolio).</li>
+                    <li>CSS (both for HTML and JavaFx).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="github">
+        <h2>Latest on Github</h2>
+        <div class="cards">
+            <div class="container">
+                <img src="src/images/data-base.JPG" class="card-images">
+                <a href="https://github.com/MohamadOjail/SimpleContactsBook-textFileDatabase.git" target="_blank" class="card-link">Contact book</a>
+                <p style="padding-left: 12px;">A simple Javafx application that utilizes a text file as a database</p>
+            </div>
+            <div class="container">
+                <img src="src/images/multi-ctrlr.JPG" class="card-images">
+                <a href="https://github.com/MohamadOjail/JavaFx-multiple-Controllers-communications-tutorial.git" target="_blank" class="card-link"">Controllers</a>
+                <p style="padding-left: 12px;">JavaFx multiple Controllers communications tutorial</p>
+            </div>
+            <div class="container">
+                <img src="src/images/tic.JPG" class="card-images">
+                <a href="https://github.com/MohamadOjail/TicTacToe.git" target="_blank" class="card-link">TicTacToe</a>
+                <p style="padding-left: 12px;">School project: Tic Tac Toe</p>
+            </div>
+            <div class="container">
+                <img src="src/images/tryParse.JPG" class="card-images">
+                <a href="https://github.com/MohamadOjail/tryParse.git" target="_blank" class="card-link">tryParse</a>
+                <p style="padding-left: 12px;">simulate C# tryParse method in java</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
