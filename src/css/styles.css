@@ -1,0 +1,34 @@
+*{
+    --grad1: #2699c7;
+    --grad2: #1fb433;
+    
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+:root{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    animation: backgroundAnimation 6s infinite alternate;
+}
+@keyframes backgroundAnimation{
+    100%{background-color: var(--grad1);}
+    0%{background-color: var(--grad2);}
+}
+section{
+    margin-top: 1em;
+    height: 100%;
+    max-width: 100vw;
+    border: #1414143a solid 0.01em;
+    box-shadow: 0.2em 0.04em 0.4em #181818 ;
+}
+a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,47 @@
+#about h3, p{
+    margin: 0;
+}
+#about h2{
+    margin: 4em 1em 0;
+}
+#about img{
+    max-width: 12em;
+}
+#about a{
+    font-weight: 600;
+    color: darkred;
+}
+#about a:hover{
+    color: yellow;
+}
+.about-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-bottom: 2em;
+}
+.about-card{
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: .8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 700px){
+    .about-cards > :first-child{
+        flex: 0 0 8em;
+    }
+    .about-cards > :first-child + *{
+        flex: 1 0 18em;
+    }
+    .about-cards > :last-child{
+        flex: 1 1 30em;
+        margin-right: 1em;
+    }
+}

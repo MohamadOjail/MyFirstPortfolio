@@ -1,0 +1,48 @@
+#github{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+    height: 100%;
+}
+.container{
+    padding: .5em;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2em;
+    width: 14em;
+    background-color: rgba(255, 255, 255, 0.664);
+    box-shadow: black .2em .2em .6em .05em;
+    color: black;
+}
+.container img{
+    max-width: 12em;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-link{
+    color: blue; 
+    font-weight: 500;
+}
+.card-link:hover{
+    color: #ff3c00;
+}
+.linksToGitLink{
+    padding-left: 20px;
+}
+
+@media screen and (min-width: 800px){
+    .cards{
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
